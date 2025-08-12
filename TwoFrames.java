@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class TwoFrames {
     public static void main(String[] args) {
-        // First frame
+       
         JFrame frame1 = new JFrame("Frame 1");
         frame1.setSize(500, 500);
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -13,7 +13,7 @@ public class TwoFrames {
         frame1.add(label1);
         frame1.setVisible(true);
 
-        // Second frame
+    
         JFrame frame2 = new JFrame("Frame 2");
         frame2.setSize(300, 200);
         frame2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
